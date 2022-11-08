@@ -1,0 +1,116 @@
+:root {
+  --Primary_Color: #18a1ff;
+  --Background_Color: #f5f7fb;
+  --Text_Color: #37535e;
+  --Shadow_Settings: 0 0 20px #8ca8c040;
+  --Border_Radius: 10px 20px;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  direction: rtl;
+  border-color: var(--Background_Color);
+  color: var(--Text_Color);
+}
+h1 {
+  font-size: 3rem !important;
+  font-weight: bold !important;
+}
+button {
+  outline: none;
+  border: none;
+}
+
+button {
+  font-family: "Tajawal", sans-serif;
+}
+
+.navbar-brand {
+  border: none;
+  border-radius: 10px;
+  box-shadow: var(--Shadow_Settings);
+}
+.nav-link {
+  color: #37535e !important;
+  font-family: "Tajawal", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.mune{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.background {
+  background-image: linear-gradient(0deg, #889daf40, #5b6374d8),
+    url(./Assets/BG.png);
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+}
+.bg-text {
+  padding-top: 120px;
+  font-family: "Tajawal", sans-serif;
+}
+.sub_title {
+  font-size: 32px;
+  font-family: "Tajawal", sans-serif;
+  font-weight: inherit;
+}
+.bg-text button {
+  width: 18%;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 19px;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 600;
+}
+
+.btn_work {
+  background-color: #37535e;
+  color: white;
+}
+.btn_worker {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: var(--Text_Color);
+}
+.card {
+  border-radius: 10px !important;
+  box-shadow: var(--Shadow_Settings);
+  color: var(--Text_Color);
+}
+.card-img-top {
+  border-radius: 10px 10px 0 0 !important ;
+}
+.star {
+  color: yellow !important;
+  font-size: 20px;
+}
+.right_icon {
+  background: rgb(8, 190, 8);
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  color: white;
+  font-size: 14px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+}
+.exp {
+  padding: initial;
+}
+@media (max-width: 576px){
+    .bg-text {
+        padding-top: 70px;
+        font-family: "Tajawal", sans-serif;
+      }
+      .bg-text button {
+        width: 40%;
+        
+      }
+     
+}
